@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "camillou": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Camillou (ZOU!)",
+      "options": {
+        "baseURL": "http://127.0.0.1:3000/v1",
+        "apiKey": "camillou-local"
+      },
+      "models": {
+        "camillou-1": { "name": "camillou-1" }
+      }
+    }
+  },
+  "model": "camillou/camillou-1",
+  "permission": {
+    "read": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "list": "allow",
+    "edit": "allow",
+    "bash": "allow",
+    "webfetch": "allow"
+  }
+}
